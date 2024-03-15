@@ -21,7 +21,7 @@ public class Jogador
     public int Email { get; set; }
 
     [Column("aposta")]
-    public ICollection<Aposta>? Apostas { get; set; }
+    public ICollection<ApostaItem>? ApostasItem { get; set; }
 
     [Column("endereco")]
     public Endereco? Endereco { get; set; }   

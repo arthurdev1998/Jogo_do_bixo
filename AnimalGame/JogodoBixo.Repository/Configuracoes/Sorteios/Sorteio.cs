@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using JogodoBixo.Repository.Configuracoes.Apostas;
 using JogodoBixo.Repository.Configuracoes.Jogadores;
 
 namespace JogodoBixo.Repository.Configuracoes.Sorteios;
@@ -33,6 +34,6 @@ public class Sorteio
 
     [Column("grandevencedor")]
     public Jogador? GrandeVencedor { get; set; }
-    
+
     public ICollection<Jogador>? Jogadores { get; set; }
 }
