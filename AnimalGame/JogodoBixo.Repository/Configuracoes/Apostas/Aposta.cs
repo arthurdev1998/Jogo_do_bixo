@@ -1,8 +1,7 @@
-using JogodoBixo.Repository.Configuracoes.Apostas;
 using JogodoBixo.Repository.Configuracoes.Jogadores;
 using JogodoBixo.Repository.Configuracoes.Sorteios;
 
-namespace JogodoBixo.Repository.Configuracoes.Aposta;
+namespace JogodoBixo.Repository.Configuracoes.Apostas;
 
 public class Aposta
 {
